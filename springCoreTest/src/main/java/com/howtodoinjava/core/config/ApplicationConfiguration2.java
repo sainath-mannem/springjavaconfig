@@ -9,8 +9,8 @@ import com.howtodoinjava.core.beans.DemoManagerImpl;
 import com.howtodoinjava.core.beans.DependencyInjection;
 import com.howtodoinjava.core.config.spring.DemoManagerImpl2;
 
-//@Configuration
-//@Import(ApplicationConfiguration.class)
+@Configuration
+@Import(ApplicationConfiguration.class)
 public class ApplicationConfiguration2 {
 	
 	
